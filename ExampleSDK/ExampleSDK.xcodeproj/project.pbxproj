@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		A11D946A29E3D31100A9A549 /* ExampleSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D946929E3D31100A9A549 /* ExampleSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A11D947129E3D32200A9A549 /* SDKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11D947029E3D32200A9A549 /* SDKService.swift */; };
+		A11D947329E3D93F00A9A549 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A11D947229E3D93F00A9A549 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A11D946629E3D31100A9A549 /* ExampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11D946929E3D31100A9A549 /* ExampleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSDK.h; sourceTree = "<group>"; };
 		A11D947029E3D32200A9A549 /* SDKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKService.swift; sourceTree = "<group>"; };
+		A11D947229E3D93F00A9A549 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				A11D946929E3D31100A9A549 /* ExampleSDK.h */,
 				A11D947029E3D32200A9A549 /* SDKService.swift */,
+				A11D947229E3D93F00A9A549 /* LICENSE */,
 			);
 			path = ExampleSDK;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11D947329E3D93F00A9A549 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
