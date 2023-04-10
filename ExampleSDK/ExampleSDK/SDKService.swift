@@ -9,7 +9,7 @@ import Foundation
 
 public class SDKService {
     
-    public init() {}
+    private init() {}
     
     public static func ReturnableString() -> String {
         return "This is Demo of SDK creation."
